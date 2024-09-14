@@ -6,9 +6,10 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 40px;
-    /* align-items: center; */
+    align-items: center;
+    /* justify-content: center; */
 }
 
 header a {

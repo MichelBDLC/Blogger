@@ -26,3 +26,13 @@ header h1 {
 h2 {
     text-align: center;
 }
+
+img {
+    width: 70vw;
+}
+
+.img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
