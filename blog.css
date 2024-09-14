@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 40px;
+    /* align-items: center; */
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+}
+
+.card {
+    border-bottom: 1px solid lightblue;
+}
+
+/* .div {
+    border
+} */
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+    list-style-type: square;
+}
+/* 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
