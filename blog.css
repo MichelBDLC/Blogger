@@ -1,9 +1,23 @@
+body {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     gap: 40px;
     /* align-items: center; */
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.left {
+    background-color: rgb(244, 244, 244);
 }
 
 header {
