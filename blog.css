@@ -6,15 +6,30 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* justify-content: space-between; */
     gap: 40px;
     align-items: center;
-    /* justify-content: center; */
+}
+
+.header-nav nav ul li {
+    list-style-type: none;
 }
 
 header a {
     color: black;
     text-decoration: none;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
 .left {
@@ -23,28 +38,27 @@ header a {
 
 header {
     border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: x-small;
 }
 
 .card {
     border-bottom: 1px solid lightblue;
 }
 
-/* .div {
-    border
-} */
-
 header h1 {
     font-family: 'Times New Roman', Times, serif;
+    flex: 1;
 }
 
-ul li {
+.left ul li {
     list-style-type: square;
 }
-/* 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
+
 
 
