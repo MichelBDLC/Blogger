@@ -1,0 +1,6 @@
+.share-sect {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+}

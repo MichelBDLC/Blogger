@@ -1,0 +1,19 @@
+@import "/css/header.css";
+@import "/css/root.css";
+@import "/css/footer.css";
+
+.about-main {
+    display: flex;
+}
+
+.about-header-text {
+    text-align: center;
+}
+
+img {
+    width: 30vw;
+}
+
+figcaption {
+    font-size: xx-small;
+}

@@ -1,0 +1,45 @@
+header {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+}
+
+header img {
+    max-width: 11vw;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav nav ul li {
+    list-style-type: none;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}

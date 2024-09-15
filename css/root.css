@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+    /* padding: 0.5rem; */
+    /* padding: 2rem; */
+    /* align-items: center; */
+}
+
+footer p {
+    font-size: x-small;
+}
+
+footer {
+    padding: 1rem;
+}

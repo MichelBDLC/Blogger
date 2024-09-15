@@ -1,63 +1,37 @@
-body {
-    margin: 0 auto;
-    padding: 2rem;
-}
+@import "/css/root.css";
+@import "/css/header.css";
+@import "/css/footer.css";
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
-}
-
-.header-nav nav ul li {
-    list-style-type: none;
-}
-
-header a {
-    color: black;
-    text-decoration: none;
-}
-
-.header-nav {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-}
-
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
 }
 
 .left {
     background-color: rgb(244, 244, 244);
-}
-
-header {
-    border-bottom: 1px solid lightgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-footer p {
-    font-size: x-small;
+    padding: 20px;
 }
 
 .card {
     border-bottom: 1px solid lightblue;
-}
-
-header h1 {
-    font-family: 'Times New Roman', Times, serif;
-    flex: 1;
+    align-items: center;
 }
 
 .left ul li {
     list-style-type: square;
+}
+
+.card img {
+    width: 40vw;
+}
+
+.card a {
+    display: flex;
+    justify-content: end;
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+    background-color: lightblue;
+    padding: 2px;
 }
 
 
